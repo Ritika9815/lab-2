@@ -9,4 +9,11 @@ const redSlider = document.getElementById("red");
 const greenSlider = document.getElementById("green");
 const blueSlider = document.getElementById("blue");
 
+/* Get the HTML element to change its background color */
+ const htmlElement = document.documentElement; 
+ 
+/* Add event listeners for when the user moves any slider */
+redSlider.addEventListener("input", updateBackgroundColor);
+greenSlider.addEventListener("input", updateBackgroundColor);
+blueSlider.addEventListener("input", updateBackgroundColor);
 
