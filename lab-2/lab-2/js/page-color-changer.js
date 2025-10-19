@@ -26,4 +26,10 @@ function updateBackgroundColor() {
 
     /* Combine into an RGB color string */
     const rgbColor = `rgb(${redValue}, ${greenValue}, ${blueValue})`;
+
+     /* Apply the new color to the page background */
+    htmlElement.style.backgroundColor = rgbColor;
+
+    /* Display the RGB color in the console for testing */
+    console.log("Background Color:", rgbColor);
 }
