@@ -33,3 +33,5 @@ function updateBackgroundColor() {
     /* Display the RGB color in the console for testing */
     console.log("Background Color:", rgbColor);
 }
+/* Set an initial color when the page loads */
+updateBackgroundColor()
